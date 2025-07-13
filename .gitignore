@@ -1,0 +1,21 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+anaconda_projects/
+.virtual_documents/
+venv/
+.env/
+
+# Ignore datasets or large folders
+data/
+
+# Ignore modles
+models/
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore other system or temporary files
+.DS_Store
+Thumbs.db
