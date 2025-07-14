@@ -48,10 +48,6 @@ The goal is to build a reliable model that can **detect fraudulent transactions*
 - **SHAP (SHapley values)** used to interpret predictions
 - Visualizes which features impact fraud predictions the most
 
-### ✅ Deployment Ready
-- Best model (XGBoost) saved using `joblib`
-- Optional: Streamlit app can be built for user interface
-
 ---
 
 ## 🚀 How to Run
@@ -60,7 +56,7 @@ The goal is to build a reliable model that can **detect fraudulent transactions*
    ```bash
    git clone https://github.com/yourusername/Credit-Card-Fraud-Detection.git
 
-2. Clone this repository:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
 
