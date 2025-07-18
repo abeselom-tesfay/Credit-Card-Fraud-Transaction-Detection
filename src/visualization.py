@@ -46,3 +46,12 @@ def plot_class_distribution(y_before, y_after):
 
     plt.tight_layout()
     plt.show()
+
+def plot_correlation_heatmap(data):
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    plt.figure(figsize=(14, 10))
+    sns.heatmap(data.corr(), cmap='coolwarm', linewidths=0.5)
+    plt.title('Correlation Heatmap')
+    plt.show()
