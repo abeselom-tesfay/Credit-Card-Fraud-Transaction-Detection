@@ -19,7 +19,7 @@ The Autoencoder is trained only on legitimate transactions and detects fraud bas
 ### Dataset
 
 - Source: [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-- 284,315 transactions total
+- 284,807 transactions total
 - 492 fraudulent cases (~0.17%)
 
 ### Autoencoder-Based Anomaly Detection
